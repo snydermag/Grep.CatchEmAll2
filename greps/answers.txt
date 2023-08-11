@@ -1,22 +1,20 @@
 # Part 1
-### a)
 
-
-
-
-### b)
-
-
-
-### c)
-
-
-
-
-
-
-
-
+maggie@Lawrences-MBP forest % ggrep -P "beed" filescan_00.1 > ../captured/beedrill.txt
+maggie@Lawrences-MBP forest % ggrep -P "blas" filescan_00.1 > ../captured/blastoise.txt
+maggie@Lawrences-MBP forest % ggrep -P "bulb" filescan_00.1 > ../captured/bulbasaur.txt
+maggie@Lawrences-MBP forest % ggrep -P "butt" filescan_00.1 > ../captured/butterfree.txt
+maggie@Lawrences-MBP forest % ggrep -P "izard$" filescan_00.2 > ../captured/charizard.txt
+maggie@Lawrences-MBP forest % ggrep -P "mander$" filescan_00.2 > ../captured/charmander.txt
+maggie@Lawrences-MBP forest % ggrep -P "meleon$" filescan_00.2 > ../captured/charmeleon.txt
+maggie@Lawrences-MBP forest % ggrep -P "pika" filescan_00.3 > ../captured/pikachu.txt
+maggie@Lawrences-MBP forest % ggrep -P "ivys" filescan_00.3 > ../captured/ivysaur.txt
+maggie@Lawrences-MBP forest % ggrep -P "jigg" filescan_00.3 > ../captured/jigglypuff.txt
+maggie@Lawrences-MBP forest % ggrep -P "meow" filescan_00.3 > ../captured/meowth.txt
+maggie@Lawrences-MBP forest % ggrep -P "psyd" filescan_00.4 > ../captured/psyduck.txt
+maggie@Lawrences-MBP forest % ggrep -P "squi" filescan_00.4 > ../captured/squirtle.txt
+maggie@Lawrences-MBP forest % ggrep -P "venu" filescan_00.4 > ../captured/venusaur.txt
+maggie@Lawrences-MBP forest % ggrep -P "wart" filescan_00.4 > ../captured/wartortle.txt
 
 
 
@@ -25,12 +23,18 @@
 # Part 2
 ### a)
 
-
-
-
+ggrep -P "(zcw|tbap)" < ./* -c
+15
 
 
 ### b)
+wc -l *
+
+3 Biggest:
+      40 beedrill.txt
+      40 charizard.txt
+      40 pikachu.txt
+
 
 
 
