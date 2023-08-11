@@ -23,12 +23,12 @@ maggie@Lawrences-MBP forest % ggrep -P "wart" filescan_00.4 > ../captured/wartor
 # Part 2
 ### a)
 
-ggrep -P "(zcw|tbap)" < ./* -c
+maggie@Lawrences-MBP captured % ggrep -P "(zcw|tbap)" < ./* -c
 15
 
 
 ### b)
-wc -l *
+maggie@Lawrences-MBP captured % wc -l *
 
 3 Biggest:
       40 beedrill.txt
